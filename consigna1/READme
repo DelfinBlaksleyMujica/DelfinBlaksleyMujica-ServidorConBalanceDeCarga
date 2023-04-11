@@ -1,0 +1,12 @@
+#SCRIPTS DEL PACKAGE.JSON
+
+Los siguientes scripts del package.json:
+
+-start-nodemon-fork
+-start-nodemon-cluster
+-start-forever-fork:"forever start server.js
+-start-forever-cluster:"forever start server.js -m CLUSTER
+-start-pm2-fork:pm2 start server.js
+-start-pm2-cluster:pm2 start server.js -i max
+
+Deberan ejecutarse desde una terminal en la direccion __dirname/consigna1/src para su correcta ejecucion.
